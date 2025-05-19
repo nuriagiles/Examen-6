@@ -1,0 +1,143 @@
+/* Estilos del body */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/id/862656980/es/foto/hombre-caminando-en-la-noche.jpg?s=612x612&w=0&k=20&c=0HITN19Ai0Hvvu92GngwQnYWk2DbSVEV9amQzn2Rd-A=");
+}
+
+
+
+/* Estilo del sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #A52A2A;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar .profile {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #A52A2A;
+}
+
+.sidebar .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 500px;
+}
+
+.sidebar .menu li {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.sidebar .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    background-color: #A52A2A;
+}
+
+
+/* Iconos */
+.sidebar .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0%;
+}
+
+.sidebar .social-icons a {
+    color: #ffffff;
+    padding: 15px;
+    background-color: #702020;
+    border-radius: 0%;
+}
+
+.sidebar .social-icons a:hover {
+    background-color: #8B2D3D;
+}
+
+/* Estilo del contenido principal de la página */
+.main-content p{
+    color: #F0F8FF;
+}
+.main-content h2{
+    color: #F0F8FF;
+}
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+.about-div{
+    text-align: center;
+}
+
+.about-section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    margin-bottom: 10px;
+}
+
+/*Seccion de read*/
+
+.read-more img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: white;
+    color: #A52A2A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-div{
+    display: flow-root;
+    text-align: center;
+}
+.read-div h3{
+    color: #F0F8FF;
+}
+.read-div p{
+    color: #F0F8FF;
+}
+
+/*Seccion art*/
+
+.Art-div img{
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+.Art-div {
+    padding: 20px;
+    display: flex;
+}
+
